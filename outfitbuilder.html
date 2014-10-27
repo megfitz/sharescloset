@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/signup.css">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/outfitbuilder.css">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<title>SharesCloset | Collect, Discover, Inspire Your Style</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="http://www.sharescloset.me"><img src="img/logo-temp.png" class="header-logo" alt="SharesCloset"></a>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">My Closet</a></li>
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="closetHeader">
+			<div id="userdetails">
+				<img src="img/avatar.png" class="profileImage">
+				<span class="userName">Meaghan Fitzgerald</span>
+			</div>
+		</div>
+
+		<div id="leftContent">
+				<span class="captionTitle" id="previewText">Outfit Preview</span>
+				<canvas id="canvas" width="600" height="670"></canvas>
+
+		</div>
+		
+		<div id="rightContent">
+			<span id="wardrobeText" class="captionTitle">Meaghan's Wardrobe</span>
+			<div id="wardrobe">
+				<ul id="outfitSelector">
+					<li><img src="http://www.sharescloset.me/img/essentials/top2-whiteblouse.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/blazer1-checkgrey.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/blazer2-black.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/cardigan1-grey.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/coat1-black.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/top3-camelshirt.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/coat2-trench.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/dress1-littleblackdress.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/jacket1-denim.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/jacket2-leatherblack.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/jeans2-blue.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/jeans3-skinnyblack.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/legging1-black.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/shoes1-blackpumps.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/shoes2-suedeboots.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/skirt1-pencilblack.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/skirt2-miniblack.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/sweater1-camel.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/sweater2-creme.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/top1-whiteshirt.jpg" class="itemSelector"></li>
+				</ul>
+			</div>
+
+			<span id="inspireText" class="captionTitle">Inspiring Additions</span>
+			<div id="inspiration">
+				<ul id="inspireSelector">
+					<li><img src="/img/essentials/37_belt_blackthin.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/44_scarf_black.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/45_hat_black.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/25_Dress_White.jpg" class="itemSelector"></li>
+					<li><img src="/img/essentials/33_jacket_stamped.jpg" class="itemSelector"></li>
+				<ul>
+			</div>
+			<br>
+			<br>
+		</div>
+		<footer>
+			<img src="img/logo-temp.png" class="small-logo-footer" alt="Spectacyl Logo">
+		</footer>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/outfitbuilder.js" type="text/javascript" charset="utf-8"></script>
+
+	</body>
+</html>

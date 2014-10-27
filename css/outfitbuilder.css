@@ -1,0 +1,63 @@
+/*-----------------------------------
+Left-hand Side
+-----------------------------------*/
+
+#leftContent {
+	float: left;
+	width: 40%;
+	background-color: #fff;
+	border-right: 2px #000;
+}
+
+#rightContent{
+	float: right;
+	width: 60%;
+	background-color: #fff;
+}
+
+canvas {
+	background: #eee;
+	display: block;
+	margin: 30px auto 10px;
+	border-color: #333;
+	border-radius: 5px;
+	box-shadow: 0 4px 0 0 #222;
+}
+
+#wardrobeText, #inspireText, #previewText {
+	padding: 25px 0 0 30px;
+}
+
+#wardrobe {
+	margin-top: 10px;
+	height: 400px;
+	overflow: auto;
+}
+
+#inspiration {
+	margin-top: 10px;
+	height: 220px;
+	overflow: auto;
+}
+
+#outfitSelector {
+	list-style: none;
+}
+
+#outfitSelector li {
+	display: inline-block;
+}
+
+#inspirationSelector {
+	list-style: none;
+	overflow: auto;
+}
+
+#inspireSelector li {
+	display: inline-block;
+}
+
+.itemSelector {
+	width: 118px;
+	height: 175px;
+}

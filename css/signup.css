@@ -1,0 +1,169 @@
+/*-----------------------------------
+Sign Up Page - /signup.html
+-----------------------------------*/
+
+.header-logo {
+	float: left;
+	width: 50px;
+	padding: 0px 10px 0px 10px;
+}
+
+
+/*-----------------------------------
+Sign Up Page - /signup.html
+-----------------------------------*/
+
+#signup {
+	margin:auto;
+	max-width: 75%;
+	padding: 80px 20px 0px 20px;
+}
+
+#signupForm {
+	padding-bottom: 125px;
+}
+
+.formLabel, .text-input {
+	font-family: 'Playfair Display', courier, sans-serif;
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+.formLabel {
+	padding: 10px 30px 10px 0px;
+}
+
+.text-input {
+	width: 400px;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:175px;
+    height:175px;
+    background:white;
+    border-radius:5px;
+    border:1px solid #555;
+}
+
+
+input[type='checkbox']:checked {
+	opacity: .5;
+	}
+
+
+#startingCloset {
+	list-style: none;
+}
+
+#startingCloset li {
+	display: inline-block;
+}
+
+#signupDone {
+	float: right;
+}
+
+/*-----------------------------------
+Starter Closet Form Fields
+-----------------------------------*/
+
+input[type='checkbox'][name='starter1'] {
+	background: url("../img/essentials/blazer1-checkgrey.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter2'] {
+	background: url("../img/essentials/blazer2-black.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter3'] {
+	background: url("../img/essentials/cardigan1-grey.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter4'] {
+	background: url("../img/essentials/coat1-black.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter5'] {
+	background: url("../img/essentials/top3-camelshirt.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter6'] {
+	background: url("../img/essentials/coat2-trench.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter7'] {
+	background: url("../img/essentials/dress1-littleblackdress.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter8'] {
+	background: url("../img/essentials/jacket1-denim.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter9'] {
+	background: url("../img/essentials/jacket2-leatherblack.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter10'] {
+	background: url("../img/essentials/jeans2-blue.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter11'] {
+	background: url("../img/essentials/jeans3-skinnyblack.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter12'] {
+	background: url("../img/essentials/legging1-black.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter13'] {
+	background: url("../img/essentials/shoes1-blackpumps.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter14'] {
+	background: url("../img/essentials/shoes2-suedeboots.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter15'] {
+	background: url("../img/essentials/skirt1-pencilblack.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter16'] {
+	background: url("../img/essentials/skirt2-miniblack.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter17'] {
+	background: url("../img/essentials/sweater1-camel.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter18'] {
+	background: url("../img/essentials/sweater2-creme.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter19'] {
+	background: url("../img/essentials/top1-whiteshirt.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}
+
+input[type='checkbox'][name='starter20'] {
+	background: url("../img/essentials/top2-whiteblouse.jpg") top center no-repeat #fff;
+	background-size: 118px 175px;
+}

@@ -1,0 +1,31 @@
+/*-----------------------------------
+Header
+-----------------------------------*/
+.profileImage {
+	border-radius: 100%;
+	border-width: 2px;
+	border-color: #aaa;
+	position: inline-block;
+}
+
+#closetHeader {
+	padding: 90px 0px 40px 50px;
+}
+
+.userName {
+	font-family: 'Playfair Display', courier, sans-serif;
+	display: inline-block;
+	color: #333;
+	font-size: 1.8em;
+	vertical-align: top;
+	padding: 30px 0px 0px 25px;
+}
+
+#closetHeader {
+	background: #eee;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #646464;
+	box-shadow: 5px 0px 1px #646464;
+}
+
